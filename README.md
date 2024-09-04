@@ -107,4 +107,4 @@ Here is a sample of the JSON format used by the API:
 
 ## SPRING ACADEMY
 
-The project is based on a Course from Spring Academy.
+The project is based on a Course from a Spring Academy.
