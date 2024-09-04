@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.micfro.moneycard.MoneyCardApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-09-04T12:26:15" hostname="MN-EX7660.local" time="0.677">
+  <properties/>
+  <testcase name="shouldNotAllowDeletetionOfMoneyCardTheyDoNotOwn()" classname="com.micfro.moneycard.MoneyCardApplicationTests" time="0.677"/>
+  <system-out><![CDATA[14:26:14.169 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.micfro.moneycard.MoneyCardApplicationTests]: MoneyCardApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:26:14.206 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.micfro.moneycard.MoneyCardApplication for test class com.micfro.moneycard.MoneyCardApplicationTests
+            _       __
+  _ __ ___ (_) ___ / _|_ __ ___
+ | '_ ` _ \| |/ __| |_| '__/ _ \
+ | | | | | | | (__|  _| | | (_) |
+ |_| |_| |_|_|\___|_| |_|  \___/
+
+2024-09-04T14:26:14.333+02:00  INFO 71989 --- [MoneyCard] [    Test worker] c.m.moneycard.MoneyCardApplicationTests  : Starting MoneyCardApplicationTests using Java 17.0.12 with PID 71989 (started by michal in /Users/michal/MICFRO/IT-THEMEN/THEMEN/SPRING/APPS-CODE/MONEYCARD-FAMILYFROST/MONEYCARD-FAMILYFROSDT-N01/MoneyCard)
+2024-09-04T14:26:14.334+02:00  INFO 71989 --- [MoneyCard] [    Test worker] c.m.moneycard.MoneyCardApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2024-09-04T14:26:14.514+02:00  INFO 71989 --- [MoneyCard] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-09-04T14:26:14.529+02:00  INFO 71989 --- [MoneyCard] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 1 JDBC repository interface.
+2024-09-04T14:26:14.698+02:00  INFO 71989 --- [MoneyCard] [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
+2024-09-04T14:26:14.703+02:00  INFO 71989 --- [MoneyCard] [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-04T14:26:14.703+02:00  INFO 71989 --- [MoneyCard] [    Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-04T14:26:14.725+02:00  INFO 71989 --- [MoneyCard] [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-04T14:26:14.725+02:00  INFO 71989 --- [MoneyCard] [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 386 ms
+2024-09-04T14:26:14.764+02:00  INFO 71989 --- [MoneyCard] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-04T14:26:14.829+02:00  INFO 71989 --- [MoneyCard] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:4419c4fb-8196-4794-8c86-5b307638b600 user=SA
+2024-09-04T14:26:14.830+02:00  INFO 71989 --- [MoneyCard] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-04T14:26:15.143+02:00  INFO 71989 --- [MoneyCard] [    Test worker] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name testOnlyUsers
+2024-09-04T14:26:15.305+02:00  INFO 71989 --- [MoneyCard] [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 49559 (http) with context path '/'
+2024-09-04T14:26:15.309+02:00  INFO 71989 --- [MoneyCard] [    Test worker] c.m.moneycard.MoneyCardApplicationTests  : Started MoneyCardApplicationTests in 1.059 seconds (process running for 1.45)
+2024-09-04T14:26:15.694+02:00  INFO 71989 --- [MoneyCard] [o-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-04T14:26:15.694+02:00  INFO 71989 --- [MoneyCard] [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-04T14:26:15.695+02:00  INFO 71989 --- [MoneyCard] [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

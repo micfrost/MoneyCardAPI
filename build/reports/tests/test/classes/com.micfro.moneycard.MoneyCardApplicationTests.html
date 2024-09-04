@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - MoneyCardApplicationTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>MoneyCardApplicationTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.micfro.moneycard.html">com.micfro.moneycard</a> &gt; MoneyCardApplicationTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.677s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">shouldNotAllowDeletetionOfMoneyCardTheyDoNotOwn()</td>
+<td class="success">0.677s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>14:26:14.169 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.micfro.moneycard.MoneyCardApplicationTests]: MoneyCardApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:26:14.206 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.micfro.moneycard.MoneyCardApplication for test class com.micfro.moneycard.MoneyCardApplicationTests
+            _       __
+  _ __ ___ (_) ___ / _|_ __ ___
+ | '_ ` _ \| |/ __| |_| '__/ _ \
+ | | | | | | | (__|  _| | | (_) |
+ |_| |_| |_|_|\___|_| |_|  \___/
+
+2024-09-04T14:26:14.333+02:00  INFO 71989 --- [MoneyCard] [    Test worker] c.m.moneycard.MoneyCardApplicationTests  : Starting MoneyCardApplicationTests using Java 17.0.12 with PID 71989 (started by michal in /Users/michal/MICFRO/IT-THEMEN/THEMEN/SPRING/APPS-CODE/MONEYCARD-FAMILYFROST/MONEYCARD-FAMILYFROSDT-N01/MoneyCard)
+2024-09-04T14:26:14.334+02:00  INFO 71989 --- [MoneyCard] [    Test worker] c.m.moneycard.MoneyCardApplicationTests  : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2024-09-04T14:26:14.514+02:00  INFO 71989 --- [MoneyCard] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-09-04T14:26:14.529+02:00  INFO 71989 --- [MoneyCard] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 1 JDBC repository interface.
+2024-09-04T14:26:14.698+02:00  INFO 71989 --- [MoneyCard] [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
+2024-09-04T14:26:14.703+02:00  INFO 71989 --- [MoneyCard] [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-04T14:26:14.703+02:00  INFO 71989 --- [MoneyCard] [    Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-04T14:26:14.725+02:00  INFO 71989 --- [MoneyCard] [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-04T14:26:14.725+02:00  INFO 71989 --- [MoneyCard] [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 386 ms
+2024-09-04T14:26:14.764+02:00  INFO 71989 --- [MoneyCard] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-04T14:26:14.829+02:00  INFO 71989 --- [MoneyCard] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:4419c4fb-8196-4794-8c86-5b307638b600 user=SA
+2024-09-04T14:26:14.830+02:00  INFO 71989 --- [MoneyCard] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-04T14:26:15.143+02:00  INFO 71989 --- [MoneyCard] [    Test worker] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name testOnlyUsers
+2024-09-04T14:26:15.305+02:00  INFO 71989 --- [MoneyCard] [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 49559 (http) with context path '/'
+2024-09-04T14:26:15.309+02:00  INFO 71989 --- [MoneyCard] [    Test worker] c.m.moneycard.MoneyCardApplicationTests  : Started MoneyCardApplicationTests in 1.059 seconds (process running for 1.45)
+2024-09-04T14:26:15.694+02:00  INFO 71989 --- [MoneyCard] [o-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-04T14:26:15.694+02:00  INFO 71989 --- [MoneyCard] [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-04T14:26:15.695+02:00  INFO 71989 --- [MoneyCard] [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.8</a> at 04.09.2024, 14:26:17</p>
+</div>
+</div>
+</body>
+</html>
